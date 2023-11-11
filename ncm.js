@@ -15,9 +15,9 @@
 	不推荐使用,仅能即时获取歌词即时使用,不能保存,且若原词为全英文或英文符号则翻译前会显示时间轴
 	*/
 var lrc_order = [
-        "old_merge",
         "newtype",
         "origin",
+	"old_merge",
         "tran", 
 		//"new_merge"
     ];
