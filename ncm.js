@@ -129,7 +129,7 @@ function start_search(info, callback) {
         }
         var res_id = song[b].id;
         var res_name = song[b].name;
-        var res_artist = song[b].artists[c].name;
+        var res_artist = " ";//song[b].artists[c].name;
         debug && console(res_id + "-" + res_name + "-" + res_artist);
 
         //获取歌词
